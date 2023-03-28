@@ -1,0 +1,23 @@
+*{
+    font-family: 'Playfair Display', cursive;
+    background-color: #f3f3f3;
+}
+.nav-wrapper{
+    border-bottom: 1px solid #CDCDCD;
+}
+.nav-wrapper a{
+    color: #858585;
+    text-decoration: none;
+}
+.nav-wrapper .d-flex a:hover{
+    color: #5d5fef;
+    text-decoration: none;
+    border-bottom: 2px solid #5d5fef;
+    ;
+}
+.active-page{
+    color: #5d5fef!important;
+    text-decoration: none;
+    border-bottom: 2px solid #5d5fef;
+
+}
