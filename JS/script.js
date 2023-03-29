@@ -39,7 +39,7 @@ let displayCategoryDetails= (data)=>{
    myCard.classList.add('my-Card');
    myCard.innerHTML =
    `
-   <div class="row bg-white">
+   <div class="row bg-white mb-3 rounded-3 pb-2">
   <div class="col-md-3">
     <img
       src=${element.thumbnail_url
@@ -55,7 +55,7 @@ let displayCategoryDetails= (data)=>{
     ${element.title}
     </h4>
     <p class="text-secondary">
-    ${element.details}
+    ${element.details.length > 550 ? element.details.slice(0,550)+"..."  :element.details}
     </p>
     
     <div class="row align-self-baseline">
@@ -92,7 +92,7 @@ let displayCategoryDetails= (data)=>{
   </div>
 </div>
    `
-   
+  
    CardContainer.appendChild(myCard)
 })
   } else {
