@@ -1,6 +1,6 @@
-*{
+body {
     font-family: 'Playfair Display', cursive;
-    background-color: #f3f3f3;
+    background-color: #f3f3f3!important;
 }
 .nav-wrapper{
     border-bottom: 1px solid #CDCDCD;
